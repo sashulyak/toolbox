@@ -1,9 +1,12 @@
 {
-    "python.pythonPath": "/Users/sashulyak/.virtualenvs/cv/bin/python",
-    "python.linting.pylintEnabled": false,
-    "python.linting.flake8Enabled": true,
-    "python.linting.enabled": true,
+    "python.venvPath": "~/.virtualenvs",
     "python.linting.flake8Args": [
-        "--max-line-length=120"
-    ]
+        "--max-line-length=90"
+    ],
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=90"
+    ],
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "autoDocstring.docstringFormat": "sphinx",
+    "python.languageServer": "Pylance"
 }
