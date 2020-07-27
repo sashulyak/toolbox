@@ -1,12 +1,15 @@
 {
     "python.venvPath": "~/.virtualenvs",
     "python.linting.flake8Args": [
-        "--max-line-length=90"
+        "--max-line-length=95"
     ],
     "python.linting.pycodestyleArgs": [
-        "--max-line-length=90"
+        "--max-line-length=95"
     ],
     "python.dataScience.sendSelectionToInteractiveWindow": false,
     "autoDocstring.docstringFormat": "sphinx",
-    "python.languageServer": "Pylance"
+    "python.languageServer": "Pylance",
+    "editor.rulers": [95],
+    "editor.renderWhitespace": "all",
+    "window.zoomLevel": 0
 }
